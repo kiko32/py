@@ -25,7 +25,7 @@ while horas < 24 :
         while segundos < 60 :
             print (horas, ":", minutos, ":", segundos)
             segundos = segundos + 1
-            sleep(0.25)
+            sleep(1)
         segundos = 0
         minutos = minutos + 1
     horas = horas + 1
